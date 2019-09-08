@@ -10,9 +10,6 @@
             window.open('main.html', '_self');
         } else {
             loading += 2;
-            if (loading==60) {
-                preload.style.animation='fadeout 1s ease'
-            }
         }
     }
 })();
