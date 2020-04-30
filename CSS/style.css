@@ -15,7 +15,7 @@ html,
 body {
   background-color: #fff;
   color: #414b52;
-  font-family: 'Blinker', cursive;
+  font-family: "Blinker", cursive;
   font-size: 1em;
   line-height: 1.5;
   --main-color: #4267b2;
@@ -31,40 +31,44 @@ h6 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.1;
-  margin-bottom: .5rem
+  margin-bottom: 0.5rem;
 }
 
 p {
-  margin: .7rem 0;
+  margin: 0.7rem 0;
 }
 
 .main-container h2 {
   margin-top: 1em;
 }
 
+#projects-header h2 {
+  margin-top: 1em;
+}
+
 .main-container hr {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin: 1em auto;
   width: 50%;
 }
 
 /* Main Nav CSS */
 .main-nav {
-  color: rgba(255, 255, 255, .8);
-  transition: color .3s;
+  color: rgba(255, 255, 255, 0.8);
+  transition: color 0.3s;
 }
 
 .main-nav li:hover {
   color: rgba(255, 255, 255, 1);
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .main-header {
   color: #fff;
 }
 
-.main-header-side-content{
+.main-header-side-content {
   margin-left: 120px;
 }
 
@@ -110,7 +114,8 @@ p {
 
 /* Header CSS */
 .main-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/main.jpeg') center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../Images/main.jpeg") center;
   background-size: cover;
   height: 100vh;
   min-height: 300px;
@@ -165,7 +170,7 @@ p {
   flex-direction: center;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: .625rem;
+  margin-top: 0.625rem;
   padding-top: 5.5rem;
   padding-left: 0.2rem;
 }
@@ -175,10 +180,10 @@ p {
   border-radius: 30%;
   font-size: 1.6rem;
   height: 3.75rem;
-  margin: .35rem;
+  margin: 0.35rem;
   padding: 0.95rem;
-  padding-top: .9375rem;
-  transition: background-color .5s, color .5s ease-in-out;
+  padding-top: 0.9375rem;
+  transition: background-color 0.5s, color 0.5s ease-in-out;
   width: 3.75rem;
 }
 
@@ -214,14 +219,14 @@ img[alt="myPic"] {
   border-radius: 3px;
   color: #fff;
   font-weight: 600;
-  padding: .5em;
-  transition: background-color .5s, color .5s;
+  padding: 0.5em;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .technological-skills-container p:hover {
   background-color: #fff;
   color: var(--main-color);
-  transition: background-color .5s, color .5s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .technological-skills-container i {
@@ -322,11 +327,11 @@ img[alt="myPic"] {
 
 .reasons-to-employ i {
   color: var(--main-color);
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
 
 .project-summary {
-  background-color: #2C3339;
+  background-color: #2c3339;
   color: #fff;
 }
 
@@ -357,13 +362,13 @@ img[alt="myPic"] {
 }
 
 .footer-social i {
-  margin: 0 .5em;
-  transition: color .3s;
+  margin: 0 0.5em;
+  transition: color 0.3s;
 }
 
 .footer-social i:hover {
   color: #5bc0de;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .footer-contact {
@@ -377,7 +382,7 @@ img[alt="myPic"] {
 }
 
 .footer-contact i {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .go-top-button {
@@ -400,9 +405,7 @@ img[alt="myPic"] {
   background: #fff;
   color: var(--main-color);
   border-color: var(--main-color);
-
 }
-
 
 /* Links CSS */
 a:link,
@@ -415,7 +418,7 @@ a:visited {
 .fade-in-up {
   animation-name: fade-in-up;
   animation-duration: 1s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -423,7 +426,7 @@ a:visited {
 .fade-in {
   animation-name: fade-in;
   animation-duration: 1s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -436,7 +439,7 @@ a:visited {
 .fade-in-left {
   animation-name: fade-in-left;
   animation-duration: 1s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -450,7 +453,7 @@ a:visited {
 
 .delayed-fade-in-left {
   animation-name: delayed-fade-in-left;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
   opacity: 0;
@@ -483,7 +486,6 @@ a:visited {
   animation-delay: 500ms;
 }
 
-
 .swing {
   animation-name: swing;
   animation-duration: 1s;
@@ -494,7 +496,7 @@ a:visited {
 .zoom-in {
   animation-name: zoom-in;
   animation-duration: 1s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -562,7 +564,7 @@ a:visited {
   }
 
   50% {
-    opacity: .25;
+    opacity: 0.25;
   }
 
   100% {
@@ -582,7 +584,6 @@ a:visited {
     transform: translate3d(0, 0, 0);
   }
 }
-
 
 @keyframes swing {
   20% {
@@ -624,8 +625,8 @@ a:visited {
   border: 1px solid var(--main-color);
   border-radius: 3px;
   color: #fff;
-  padding: .6rem;
-  transition: background-color .5s, color .5s, border-color .5s;
+  padding: 0.6rem;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
   width: 50%;
 }
 
@@ -642,8 +643,8 @@ a:visited {
   border: 1px solid var(--main-color);
   border-radius: 3px;
   color: #fff;
-  padding: .6rem;
-  transition: background-color .5s, color .5s, border-color .5s;
+  padding: 0.6rem;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
   width: 30%;
 }
 
@@ -790,10 +791,14 @@ a:visited {
 }
 
 @media only screen and (min-width: 750px) {
-
   /* Main CSS */
   .main-container h2 {
     margin: 0;
+  }
+
+  #projects-header h2 {
+    margin: 0;
+    padding: 0;
   }
 
   /* Container CSS */
@@ -838,11 +843,11 @@ a:visited {
   }
 
   .main-header img {
-    max-width: 100%;  
+    max-width: 100%;
   }
 
   .main-header-side-content {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     display: block;
     height: 100%;
@@ -859,15 +864,15 @@ a:visited {
     cursor: pointer;
     font-size: 1.2em;
     margin: 1em 0;
-    padding: .4rem;
-    transition: background-color .5s, color .5s;
+    padding: 0.4rem;
+    transition: background-color 0.5s, color 0.5s;
     width: 90%;
   }
 
   .main-header-side-content button:hover {
     background-color: #5bc0de;
     color: #fff;
-    transition: background-color .5s, color .5s;
+    transition: background-color 0.5s, color 0.5s;
   }
 
   /* Summary CSS */
@@ -875,6 +880,12 @@ a:visited {
     display: flex;
     justify-content: space-between;
     padding-bottom: 5rem;
+  }
+
+  .project-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
   }
 
   .summary-container,
@@ -918,7 +929,6 @@ a:visited {
 }
 
 @media only screen and (min-width: 1000px) {
-
   /* Container CSS */
   .summary,
   .social,
@@ -934,6 +944,7 @@ a:visited {
   }
 
   .summary-block,
+  .project-block, 
   .social,
   .technological-skills-block,
   .project-container,
@@ -1019,8 +1030,8 @@ a:visited {
   }
 }
 
-@media only screen and (max-width: 750px){
-  .go-top-button{
+@media only screen and (max-width: 750px) {
+  .go-top-button {
     visibility: hidden;
   }
 
