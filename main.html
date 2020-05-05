@@ -5,15 +5,14 @@
   <meta charset="utf-8">
   <meta name="description"
     content="My name is Georgi and I'm a Front End Developer. I spend most of my days taking my craft to the next level. I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects. With this I can say that Development is my passion">
-
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/98b86a560d.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./Images/favicon.jpg">
   <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   <link rel="shortcut icon" href="./Images/favicon.jpg">
   <link rel="stylesheet" href="CSS/style.css">
-  <script src="https://kit.fontawesome.com/98b86a560d.js" crossorigin="anonymous"></script>
   <title>GID Technologies</title>
 </head>
 
@@ -35,7 +34,11 @@
       <a href="main.html#main-footer">
         <li class="delayed-fade-in-left delay-4">Contact</li>
       </a>
-      <a href="Resources/Resume.pdf" download>
+      <a href="https://github.com/wafrey" target="_blank">
+        <li class="delayed-fade-in-left delay-5 resume-download">Github<i class="fab fa-github"
+            id="resume-download-button"></i></li>
+      </a>
+      <a href="Resources/GeorgiDimitrovResume.pdf" download>
         <li class="delayed-fade-in-left delay-5 resume-download">Resume<i class="fas fa-download"
             id="resume-download-button"></i></li>
       </a>
@@ -60,7 +63,7 @@
 
   <main class="main-container" id="main-content">
     <section class="summary" id="about-me">
-      <div class="summary-block">
+      <div class="summary-block-about">
         <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
           <header>
             <h2>About me</h2>
@@ -74,13 +77,12 @@
 
         <img class="wow fade-in-up" data-wow-delay="0.5s" alt="myPic" src="./Images/myPic.jpg">
 
-        <div class="social-container">
+        <div class="minesocial" id="minesocialid">
           <a href="mailto:g.dimitrovtech@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
           <a href="https://github.com/Wafrey" target="_blank"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/georgi-dimitrov-b66b7a181/" target="_blank"><i
-              class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.facebook.com/g.dimitrov1914" id="fb" target="_blank"><i class="fab fa-facebook"></i></a>
-        </div>     
+              class="fab fa-linkedin"></i></a>
+        </div>
       </div>
     </section>
 
@@ -94,6 +96,7 @@
       </div>
 
       <div class="summary-block">
+
         <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
           <hr>
           <div>
@@ -116,8 +119,8 @@
           </ul>
           <a href="https://github.com/Wafrey/dev-forum" target="_blank"><button class="project-button">View
               Code</button></a>
-          <a href="https://gid-tech.info/uchiha-invader/" target="_blank"><button class="project-button">Visit
-              Project</button></a>
+         <!--  <a href="https://gid-tech.info/uchiha-invader/" target="_blank"><button class="project-button">Visit
+              Project</button></a> -->
         </div>
       </div>
       <div class="summary-block">
@@ -305,11 +308,11 @@
             <li><i class="fas fa-car"></i> Formula 1 is also sport which I love to watch in weekends.</li>
           </ul>
         </div>
-        <div class="footer-social">
+        <div class="minesocial">
           <a href="mailto:g.dimitrovtech@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
           <a href="https://github.com/Wafrey" target="_blank"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/georgi-dimitrov-b66b7a181/" target="_blank"><i
-              class="fab fa-linkedin-in"></i></a>
+              class="fab fa-linkedin"></i></a>
         </div>
       </div>
       <address>
@@ -322,8 +325,13 @@
             <p>Address: Sofia</p>
           </div>
           <div class="footer-contact-container">
-            <a href="mailto:g.dimitrovtech@gmail.com">
+            <a href="mailto:g.dimitrovtech@gmail.com" target="_blank">
               <p>Email: g.dimitrovtech@gmail.com</p>
+            </a>
+          </div>
+          <div class="footer-contact-container">
+            <a href="https://www.linkedin.com/in/wafrey/" target="_blank">
+              <p>LinkedIn: linkedin.com/in/wafrey/</p>
             </a>
           </div>
           <div class="footer-contact-container">
