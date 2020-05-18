@@ -341,10 +341,6 @@ img[alt="myPic"] {
   padding-bottom: 4rem;
 }
 
-.project-container ul {
-  padding-left: 2rem;
-}
-
 /* Reasons To Employ */
 
 .reasons-container {
@@ -706,6 +702,14 @@ a:visited {
 @media only screen and (min-width: 600px) {
   .main-container hr {
     width: 30%;
+  }
+
+  .project-container ul {
+    padding-left: 3rem;
+  }
+
+  .project-container {
+    padding-left: 1rem;
   }
 
   /* Main Header CSS */
