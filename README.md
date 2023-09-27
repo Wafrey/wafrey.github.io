@@ -1,6 +1,6 @@
 # Personal website / portfolio /.
 
-Visit my website - [http://gid-tech.info/](http://gid-tech.info/)
+Visit my website - [https://dimitrovtech.dev/](https://dimitrovtech.dev/)
 
 ### Built With
 
