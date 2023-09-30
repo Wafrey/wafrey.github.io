@@ -2,19 +2,23 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="description"
+    content="My name is Georgi and I'm a Front End Developer. I spend most of my days taking my craft to the next level. I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects. With this I can say that Development is my passion">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/98b86a560d.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./Images/favicon.jpg">
   <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon.png">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="./CSS/index.css">
   <title>Dimitrov Technologies</title>
 </head>
 
 <body>
-  <div class="preload">
+  <div id="preload">
     <div class="logo">
       Dimitrov<span>Tech</span>
     </div>
@@ -24,7 +28,363 @@
       <div class="loader-section section-right"></div>
     </div>
   </div>
- <script src="./JavaScript/index.js"></script>
+
+  <div id="content">
+    <nav class="main-nav">
+      <i class="fas fa-bars fa-2x" tabindex="1"></i>
+      <a href="/"><img src="Images/logo.png" alt="Georgi logo"></a>
+      <ul>
+        <a href="#about-me">
+          <li class="delayed-fade-in-left">About me</li>
+        </a>
+        <a href="#projects">
+          <li class="delayed-fade-in-left delay-2">Projects</li>
+        </a>
+        <a href="#skills">
+          <li class="delayed-fade-in-left delay-2">Skills</li>
+        </a>
+        <a href="#main-footer">
+          <li class="delayed-fade-in-left delay-4">Contact</li>
+        </a>
+        <a href="https://github.com/wafrey" target="_blank">
+          <li class="delayed-fade-in-left delay-5 resume-download">Github<i class="fab fa-github"
+              id="resume-download-button"></i></li>
+        </a>
+        <a href="Resources/GeorgiDimitrovResume.pdf" download>
+          <li class="delayed-fade-in-left delay-5 resume-download">Resume<i class="fas fa-download"
+              id="resume-download-button"></i></li>
+        </a>
+      </ul>
+    </nav>
+
+    <header class="main-header">
+      <div class="main-header-container long-fade-in">
+        <div class="main-header-content">
+          <a href="index.html"><img src="Images/header.png" alt="Georgi header"></a>
+          <h1>A passionate developer</h1>
+          <p>The harder you work for something,<br> the greater you'll feel when you achieve it.</p>
+        </div>
+        <div class="main-header-side-content">
+          <p class="more-info">Want to work for you? I'm always looking for new projects and to develop my skills in the
+            industry. Don't be shy, get in touch!</p>
+          <a href="#main-footer"><button>Get in touch</button></a>
+        </div>
+      </div>
+      <a href="#main-content"><i class="fas fa-chevron-down fa-3x swing"></i></a>
+    </header>
+
+    <main class="main-container" id="main-content">
+      <section class="summary" id="about-me">
+        <div class="summary-block-about">
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <header>
+              <h2>About me</h2>
+            </header>
+            <hr>
+            <p class="heavy">My name is Georgi Dimitrov and I am a Software Engineer</p>
+            <p>I enjoy spending my free time increasing my knowledge of Web Development, by focusing on creating unique,
+              and amazing experiences that will help your business growth.</p>
+            <a href="#main-footer"><button class="main-button">More about me</button></a>
+          </div>
+
+          <img class="wow fade-in-up" data-wow-delay="0.5s" alt="myPic" src="./Images/myPic.jpg">
+
+          <div class="minesocial" id="minesocialid">
+            <a href="mailto:g.dimitrovtech@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            <a href="https://github.com/Wafrey" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/georgi-dimitrov-b66b7a181/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="project-block wow fade-in-left">
+          <div id="projects-header">
+            <header>
+              <h2>Latest Projects</h2>
+            </header>
+          </div>
+        </div>
+
+        <div class="summary-block">
+
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/clothing-outlet/clothing-outlet.png">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>Clothing Outlet</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>Express</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>React Router</li>
+              <li>Firebase DB</li>
+              <li>Firebase Auth</li>
+              <li>Google Signin</li>
+              <li>Styled with Sass</li>
+              <li>Stripe Payment</li>
+            </ul>
+            <a href="https://github.com/Wafrey/clothing-outlet" target="_blank"><button class="project-button">View
+                Code</button></a>
+            <a href="https://clothing-outletbg.herokuapp.com/" target="_blank"><button class="project-button">Visit
+                Project</button></a>
+          </div>
+        </div>
+        <div class="summary-block">
+
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/dev-forum/dev-forum.png">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>Dev Forum</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>React</li>
+              <li>React Router</li>
+              <li>Redux</li>
+              <li>Styled with Bootstrap</li>
+              <li>JTW for Authentication</li>
+              <li>Github API</li>
+              <li>Gravatar</li>
+            </ul>
+            <a href="https://github.com/Wafrey/dev-forum" target="_blank"><button class="project-button">View
+                Code</button></a>
+            <!--  <a href="https://gid-tech.info/uchiha-invader/" target="_blank"><button class="project-button">Visit
+              Project</button></a> -->
+          </div>
+        </div>
+        <div class="summary-block">
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/uchiha/header.jpg">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>Uchiha-FaceDetection</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>React</li>
+              <li>React Particles</li>
+              <li>Styled with Tachyons</li>
+              <li>Clarifai face detection API</li>
+            </ul>
+            <a href="https://github.com/Wafrey/uchiha-face-detection" target="_blank"><button
+                class="project-button">View
+                Code</button></a>
+          </div>
+        </div>
+        <div class="summary-block">
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/uchihaInvader/uchihaInvader.png">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>Uchiha Invader</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>VanillaJS</li>
+            </ul>
+            <a href="https://github.com/Wafrey/uchiha-invader" target="_blank"><button class="project-button">View
+                Code</button></a>
+            <a href="https://dimitrovtech.dev/uchiha-invader/" target="_blank"><button class="project-button">Visit
+                Project</button></a>
+          </div>
+        </div>
+        <div class="summary-block">
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/messenger/messenger.png">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>Messenger</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>jQuery</li>
+              <li>AJAX</li>
+              <li>FireBase</li>
+            </ul>
+            <a href="https://github.com/Wafrey/simple-messenger" target="_blank"><button class="project-button">View
+                Code</button></a>
+            <a href="https://dimitrovtech.dev/simple-messenger/" target="_blank"><button class="project-button">Visit
+                Project</button></a>
+          </div>
+        </div>
+        <div class="summary-block">
+          <div class="summary-container wow fade-in-left" data-wow-delay="0.5s">
+            <hr>
+            <div>
+              <img src="./Images/pulse/pulsefitness.jpg">
+            </div>
+          </div>
+          <div class="project-container wow fade-in-up" data-wow-delay="0.5s">
+            <h3>PulseFitness</h3>
+            <p>Technologies used for the project, visit it on github for code</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="https://github.com/Wafrey/PulseFitness" target="_blank"><button class="project-button">View
+                Code</button></a>
+            <a href="https://dimitrovtech.dev/PulseFitness/" target="_blank"><button class="project-button">Visit
+                Project</button></a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="technological-skills" id="skills">
+        <div class="technological-skills-block wow fade-in" data-wow-delay="0.5">
+          <header>
+            <h2>Technological Skills</h2>
+          </header>
+          <hr>
+          <p>I always enjoy learning new things. Especially the technologies that make your company special.</p>
+          <div class="technological-skills-container">
+            <p class="row1">Javascript<i class="fab fa-js"></i></p>
+            <p class="row1">Typescript<i class="fas fa-code"></i></p>
+            <p class="row2">ES6+<i class="fab fa-js"></i></p>
+            <p class="row3">Databases<i class="far fa-file-code"></i></p>
+            <p class="row4">Github<i class="fab fa-github"></i></p>
+            <p class="row5">CSS3<i class="fab fa-css3-alt"></i></p>
+            <p class="row8">Bootstrap<i class="far fa-file-code"></i></p>
+            <p class="row8">Sass<i class="fab fa-sass"></i></p>
+            <p class="row9">React<i class="fab fa-react"></i></p>
+            <p class="row7">Redux<i class="far fa-file-code"></i></p>
+            <p class="row4">Node<i class="fab fa-node-js"></i></p>
+            <p class="row6">Problem Solver<i class="fas fa-cogs"></i></p>
+            <p class="row7">NextJS<i class="fab fa-node-js"></i></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="reasons-to-employ">
+        <div class="reasons-to-employ-content wow fade-in" data-wow-delay="0.3s">
+          <header>
+            <h2>Why work with me?</h2>
+          </header>
+          <hr>
+          <p>Here are a few advantages to working with me:</p>
+        </div>
+        <div class="reasons-to-employ-block">
+          <div class="reasons-container wow fade-in" data-wow-delay="0.5s">
+            <i class="fas fa-code fa-3x"></i>
+            <h3>Passionate developer</h3>
+            <p>Big believer in the fact that the greatest work is done by passionate people. Hard work is worthless for
+              those don't love coding. </p>
+          </div>
+          <div class="reasons-container wow fade-in" data-wow-delay="0.7s">
+            <i class="fab fa-leanpub fa-3x"></i>
+            <h3>Quick learner</h3>
+            <p>Confident in my ability to learn something new and put it into production. Thrive in fast-paced and
+              competitive environments.</p>
+          </div>
+          <div class="reasons-container wow fade-in" data-wow-delay="0.9s">
+            <i class="fas fa-lightbulb fa-3x"></i>
+            <h3>Problem Solver</h3>
+            <p>At the heart of every successful business is a problem solver. I thrive under pressure and in fast-paced
+              environments.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer" id="main-footer">
+      <div class="main-footer-container wow fade-in-up" data-wow-delay="0.5s">
+        <div class="main-footer-content">
+          <div class="footer-about-me-content">
+            <header>
+              <h2>About <span class="uppercase">Georgi</span></h2>
+            </header>
+            <p>Hello! My name is Georgi Dimitrov and my passion is WEB Development.</p>
+            <p>I started my journey as a self-taught web developer right out after High School graduate, a couple months
+              after that I joined Software University in Sofia to gain more knowledge.</p>
+            <p>Ever since I moved to Sofia and start learning more deep in
+              University I have fallen in love with web development and spend most of my days taking my craft to the
+              next
+              level.</p>
+            <p>Like many other programmers, I enjoy spending my free time increasing my knowledge and
+              building new and challenging projects.</p>
+            <p>Some of my favorite things to do include:</p>
+            <ul>
+              <li><i class="fas fa-code"></i>Learning modern standards and best practices of the industry.</li>
+              <li><i class="fas fa-futbol"></i> Watching soccer, also I played for our local team before my graduation
+                in
+                High School.</li>
+              <li><i class="fas fa-car"></i> Formula 1 is also sport which I love to watch in weekends.</li>
+            </ul>
+          </div>
+          <div class="minesocial">
+            <a href="mailto:g.dimitrovtech@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Wafrey" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/georgi-dimitrov-b66b7a181/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <address>
+          <div class="footer-contact">
+            <header>
+              <h2>Contact with me:</h2>
+            </header>
+            <div class="footer-contact-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Address: Sofia</p>
+            </div>
+            <div class="footer-contact-container">
+              <a href="mailto:g.dimitrovtech@gmail.com" target="_blank">
+                <p>Email: g.dimitrovtech@gmail.com</p>
+              </a>
+            </div>
+            <div class="footer-contact-container">
+              <a href="https://www.linkedin.com/in/wafrey/" target="_blank">
+                <p>LinkedIn: linkedin.com/in/wafrey/</p>
+              </a>
+            </div>
+            <div class="footer-contact-container">
+              <i class="fas fa-phone fa-flip-horizontal"></i>
+              <p>Phone: +359 892 470 444</p>
+            </div>
+          </div>
+        </address>
+      </div>
+      <p class="wow fade-in-up" data-wow-delay="1s">&copy 2023 Georgi Dimitrov &copy</p>
+    </footer>
+
+
+    <div class="go-top-button">
+      <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="JavaScript/wow.min.js"></script>
+    <script src="JavaScript/index.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </div>
 </body>
 
 </html>
